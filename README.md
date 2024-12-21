@@ -1,3 +1,4 @@
+
 # EWS-Mapping-for-GLOF
 
 ## Overview
@@ -33,3 +34,48 @@ You can install these dependencies using `pip`:
 
 ```bash
 pip install numpy pandas matplotlib scipy geopandas shapely rasterio
+```
+
+## Usage
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Gaurav20112003/EWS-Mapping-for-GLOF.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd EWS-Mapping-for-GLOF
+   ```
+
+3. Open the Jupyter notebook:
+
+   ```bash
+   jupyter notebook Flood_Path_Simulation.ipynb
+   ```
+
+4. Follow the instructions in the notebook to run the flood path simulations and visualize the results.
+
+## Data
+
+The notebook relies on geospatial data (e.g., Digital Elevation Models) to simulate flood paths. Ensure that you have access to appropriate datasets, or you can use open-source data available online, such as from the USGS or NASA.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or encounter any issues, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Acknowledgments
+
+- [NOAA's Sea Level Rise Viewer](https://coast.noaa.gov/digitalcoast/tools/slr.html) for sea-level rise data.
+- [ICIMOD's Early Warning Systems for GLOF](https://lib.icimod.org/record/26818/files/c_attachment_692_5891.pdf) for GLOF research.
+- Geospatial libraries like **GeoPandas**, **Shapely**, and **Rasterio** for spatial data analysis and visualization.
+
+## Contact
+
+For further inquiries, feel free to contact me through GitHub issues or via email at [kumargaurav4108@gmail.com].
